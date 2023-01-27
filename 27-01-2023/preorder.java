@@ -3,9 +3,10 @@ class Solution {
     void main(TreeNode node){
         if(node == null)
             return;
+        li.add(node.val);
         main(node.left);
         main(node.right);
-        li.add(node.val);
+       
     }
     public List<Integer> postorderTraversal(TreeNode root) {
         main(root);
