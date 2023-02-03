@@ -37,4 +37,4 @@ class Solution {
         }
         return stack.pop().val;
     }
-}
+} 
