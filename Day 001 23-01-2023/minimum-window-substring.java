@@ -47,7 +47,7 @@ class Solution {
         if(minlen == -1)
             return "";
         else
-            return s.substring(start,end+1);
+            return s.substring(start, end+1);
 
     }
 }
