@@ -20,3 +20,4 @@ class Solution:
             if len(a) != 0:
                 arr.append(a)
         return arr
+ 
