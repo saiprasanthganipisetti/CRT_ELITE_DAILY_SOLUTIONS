@@ -1,4 +1,4 @@
-/*Approach is to check whether we gain anything from the subtrees. There are two cases here, one is we get profit from subtree. If so, then we add it to the root, or else we skip. The maximum method below returns the best path among the left subtree and right subtree.*/
+/*Approach is to check whether we gain anything from the  subtrees. There are two cases here, one is we get profit from subtree. If so, then we add it to the root, or else we skip. The maximum method below returns the best path among the left subtree and right subtree.*/
 class Solution {
     int ans = -10000;
     public int maximum(TreeNode t){
